@@ -30,7 +30,7 @@ git remote add $REMOTE_NAME $GIT_URL
 
 git status 
 
-git checkout master
+git checkout -b master
 
 git status
 
