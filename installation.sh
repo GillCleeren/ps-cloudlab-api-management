@@ -24,7 +24,7 @@ az webapp deployment user set --user-name $DEPLOY_USER --password $DEPLOY_PASSWO
 
 GIT_URL="https://$DEPLOY_USER@$globomanticsApiName.scm.azurewebsites.net/$globomanticsApiName.git"
 
-cd ps-azure-api-management-lab
+cd ps-cloudlab-api-management
 
 git remote add $REMOTE_NAME $GIT_URL
 
